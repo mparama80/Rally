@@ -1,0 +1,12 @@
+pipelin {
+	agent any
+		stages {
+			stage('First') {
+			echo "This is declarative pipeline"
+			}
+			stage('Second') {
+			echo "This is second stage"
+			}
+		}
+
+}
